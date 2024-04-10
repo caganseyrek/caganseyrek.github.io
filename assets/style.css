@@ -117,12 +117,6 @@ footer::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
-nav,
-section#sitetitle,
-section#buttons {
-    width: fit-content;
-}
-
 a#menutoggler {
     display: none;
 }
@@ -144,22 +138,6 @@ div#siteicon {
 section#intro {
     min-height: 450px;
     height: calc(100vh - 130px);
-}
-
-section#intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div#intro-wrapper {
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-    box-sizing: border-box;
-    text-align: center;
-    width: fit-content;
-    padding-bottom: 30px;
 }
 
 div#general-cat {
@@ -188,41 +166,13 @@ section .pageheader {
     text-align: center;
 }
 
-#techstackgrid,
-#projectgrid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 15px;
-    row-gap: 15px;
-    margin: auto;
-}
-
-.techstacksection,
-.project {
-    width: 392.5px;
-    flex-direction: column;
-    row-gap: 15px;
-}
-
 .techstacksection {
     display: flex;
     row-gap: 15px;
 }
 
-.project,
-.projectlinks,
-.project p {
-    display: flex;
-}
-
 .project p {
     flex: 1;
-}
-
-.project p,
-.project h3 {
-    margin: 0px;
 }
 
 .projectlinks {
@@ -249,6 +199,14 @@ section .pageheader {
     color: var(--dark-color) !important;
     border-radius: var(--inner-border-radius) !important;
     background-color: var(--light-color) !important;
+}
+
+#notfound {
+    height: calc(100vh - 175px);
+}
+
+#notfound p {
+    margin: 0px;
 }
 
 .centered {
@@ -284,6 +242,34 @@ svg.icon path {
     fill: var(--dark-color);
 }
 
+section#intro,
+#notfound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#intro-wrapper,
+#notfound {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    width: fit-content;
+    padding-bottom: 30px;
+}
+
+#techstackgrid,
+#projectgrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin: auto;
+}
+
 header,
 section#sitetitle,
 section#buttons,
@@ -308,10 +294,34 @@ div#socials a {
     column-gap: 10px;
 }
 
+nav,
+section#sitetitle,
+section#buttons {
+    width: fit-content;
+}
+
 nav a,
 div#controls a,
 .projectlinks a.btn {
     background-color: var(--light-color);
+}
+
+.techstacksection,
+.project {
+    width: 392.5px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.project,
+.projectlinks,
+.project p {
+    display: flex;
+}
+
+.project p,
+.project h3 {
+    margin: 0px;
 }
 
 p {
