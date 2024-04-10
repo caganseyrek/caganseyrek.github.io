@@ -2,4 +2,4 @@ Gemfile.lock
 .jekyll-cache
 /_site
 
-testfile.html
+/pages/testpage.html
