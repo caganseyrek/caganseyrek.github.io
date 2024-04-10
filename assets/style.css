@@ -202,6 +202,7 @@ section .pageheader {
 }
 
 div#notfound {
+    min-height: 358px;
     height: calc(100vh - 175px);
 }
 
