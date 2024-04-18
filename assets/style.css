@@ -311,6 +311,7 @@ nav a,
 div#controls a,
 .projectlinks a.btn {
     background-color: var(--light-color);
+    user-select: none;
 }
 
 .techstacksection,
@@ -352,32 +353,7 @@ h3 {
     margin: 0px;
 }
 
-@media only screen and (max-width: 830px) {
-    section .pageheader {
-        margin: 30px 15px 0px 15px;
-        text-align: center;
-    }
-
-    #techstackgrid,
-    #projectgrid {
-        margin: 0px 15px;
-    }
-
-    .techstacksection,
-    .project {
-        width: calc(100% / 2 - 7.5px);
-    }
-
-    .centered {
-        margin: 0px 15px;
-    }
-
-    footer.centered {
-        margin: 15px 15px 30px 15px !important;
-    }
-}
-
-@media only screen and (max-width: 785px) {
+@media only screen and (max-width: 850px) {
     section#buttons {
         position: relative;
     }
@@ -407,6 +383,31 @@ h3 {
         width: 100%;
         justify-content: start;
         border-radius: var(--inner-border-radius);
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    section .pageheader {
+        margin: 30px 15px 0px 15px;
+        text-align: center;
+    }
+
+    #techstackgrid,
+    #projectgrid {
+        margin: 0px 15px;
+    }
+
+    .techstacksection,
+    .project {
+        width: calc(100% / 2 - 7.5px);
+    }
+
+    .centered {
+        margin: 0px 15px;
+    }
+
+    footer.centered {
+        margin: 15px 15px 30px 15px !important;
     }
 }
 
