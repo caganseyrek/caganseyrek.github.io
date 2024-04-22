@@ -1,20 +1,25 @@
 - title: 📖 Lecturier
-  desc: A full-stack lecture manager app built using React and Express
+  desc: A full-stack lecture manager app
   source: https://github.com/caganseyrek/Lecturier
-  article: "sup"
-  docs: "https://caganseyrek.github.io/docs/lecturier"
+  article: ""
+  docs: ""
+- title: 🗓️ SirPuffin
+  desc: A lightweight, cross-platform calendar app
+  source: https://github.com/caganseyrek/SirPuffin
+  article: ""
+  docs: ""
 - title: 🧑‍💻 Personal Website
-  desc: My Personal website and Portfolio generated with Jekyll
+  desc: Source of my personal website
   source: https://github.com/caganseyrek/caganseyrek.github.io
   article: ""
   docs: ""
 - title: 📃 TOC Generator
-  desc: A simple script that automatically generates a table of contents
+  desc: An automatic table of contents generator
   source: https://github.com/caganseyrek/TOC-Generator
   article: ""
   docs: ""
 - title: 🃏 Blackjack
-  desc: A simple terminal-based blackjack game made with Java
+  desc: A simple terminal-based blackjack game
   source: https://github.com/caganseyrek/Blackjack
   article: ""
   docs: ""
