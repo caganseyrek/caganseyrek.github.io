@@ -353,6 +353,16 @@ h3 {
     margin: 0px;
 }
 
+@media only screen and (max-height: 655px) {
+    div#intro-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
 @media only screen and (max-width: 850px) {
     section#buttons {
         position: relative;
@@ -414,7 +424,7 @@ h3 {
 @media only screen and (max-width: 600px) {
     section#intro,
     div#notfound {
-        margin: 0px 15px;
+        padding: 0px 15px;
     }
 }
 
@@ -427,5 +437,21 @@ h3 {
 @media only screen and (max-width: 578px) {
     .techstacksection {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 422px) {
+    div#siteicon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    div#siteicon{
+        display: inline-block;
+    }
+
+    h2#name {
+        display: none;
     }
 }
