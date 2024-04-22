@@ -1,10 +1,10 @@
 - title: 📖 Lecturier
-  desc: A full-stack lecture manager app
+  desc: Full-stack lecture and grade manager app
   source: https://github.com/caganseyrek/Lecturier
   article: ""
   docs: ""
 - title: 🗓️ SirPuffin
-  desc: A lightweight, cross-platform calendar app
+  desc: Lightweight, cross-platform calendar app
   source: https://github.com/caganseyrek/SirPuffin
   article: ""
   docs: ""
@@ -14,12 +14,12 @@
   article: ""
   docs: ""
 - title: 📃 TOC Generator
-  desc: An automatic table of contents generator
+  desc: Automatic table of contents generator
   source: https://github.com/caganseyrek/TOC-Generator
   article: ""
   docs: ""
 - title: 🃏 Blackjack
-  desc: A simple terminal-based blackjack game
+  desc: Simple, terminal-based blackjack game
   source: https://github.com/caganseyrek/Blackjack
   article: ""
   docs: ""
