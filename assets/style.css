@@ -92,6 +92,7 @@ nav {
 }
 
 footer {
+    border-top: solid 1px var(--container-border);
     height: 50px;
     color: var(--slight-dark-color);
     text-align: center;
@@ -103,11 +104,7 @@ footer {
     overflow-y: hidden;
 }
 
-footer {
-    border-top: solid 1px var(--container-border);
-}
-
-footer.centered {
+footer.contained {
     max-width: 800px;
     border: solid 1px var(--container-border);
     border-radius: var(--border-radius);
@@ -136,8 +133,8 @@ div#siteicon {
     background-repeat: no-repeat;
     background-size: 35.78px 42px;
     background-position: center center;
-    width: 35.78px;
-    height: 42px;
+    min-width: 35.78px;
+    min-height: 42px;
     border-radius: var(--inner-border-radius);
 }
 
@@ -151,8 +148,8 @@ div#general-cat {
     background-repeat: no-repeat;
     background-size: 140px 140px;
     background-position: center center;
-    width: 140px;
-    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
     border-radius: 100%;
     margin: auto;
 }
@@ -243,6 +240,8 @@ svg.icon {
     margin: 1px 0px;
     width: 16px;
     height: 16px;
+    min-width: 16px;
+    min-height: 16px;
 }
 
 svg.icon path {
@@ -254,6 +253,12 @@ div#notfound {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div#intro-wrapper {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 div#intro-wrapper,
@@ -358,8 +363,6 @@ h3 {
         padding-top: 50px;
         padding-bottom: 50px;
         height: auto;
-        overflow-y: auto;
-        overflow-x: hidden;
     }
 }
 
@@ -388,7 +391,7 @@ h3 {
         padding: 15px;
         box-sizing: border-box;
     }
-    
+
     nav .btn {
         width: 100%;
         justify-content: start;
@@ -416,13 +419,18 @@ h3 {
         margin: 0px 15px;
     }
 
-    footer.centered {
+    footer.contained {
         margin: 15px 15px 30px 15px !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    section#intro,
+    div#intro-wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
     div#notfound {
         padding: 0px 15px;
     }
@@ -432,23 +440,15 @@ h3 {
     .project {
         width: 100%;
     }
-}
 
-@media only screen and (max-width: 578px) {
     .techstacksection {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 422px) {
-    div#siteicon{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 355px) {
-    div#siteicon{
-        display: inline-block;
+@media only screen and (max-width: 430px) {
+    body {
+        min-width: 430px;
     }
 
     h2#name {
