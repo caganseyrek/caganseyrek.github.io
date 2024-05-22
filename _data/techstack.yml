@@ -1,9 +1,9 @@
 - title: Languages
-  list: [Javascript, Typescript, Python, C, C++, C#, Java, CSS, HTML]
-  # to be added > Ruby,  Rust, PHP
+  list: [Javascript, Typescript, Python, Java, C#, C, C++, CSS, HTML]
+  # to be added > Ruby, Rust, PHP
 - title: Frameworks
-  list: [ASP.NET Core, React, Next.js, Express.js, Electron.js, Tailwind]
-  # to be added > Rails, Django, Flask, Remix, Gatsby
+  list: [ASP.NET Core, Svelte, SvelteKit, React, Express.js, Electron.js]
+  # to be added > Rails, Django, Flask, Remix, Gatsby, Next.js, Tailwind
 - title: Data Management
   list: [SQL, MongoDB, Mongoose]
   # to be added > MySQL, PostgreSQL, SQLite3
