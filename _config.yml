@@ -3,14 +3,14 @@ description: 3rd-year computer engineering student who loves full-stack web deve
 keywords: "personal website, portfolio, web development, full-stack"
 
 github_profile: https://github.com/caganseyrek
+linkedin_profile: https://www.linkedin.com/in/caganseyrek/
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"

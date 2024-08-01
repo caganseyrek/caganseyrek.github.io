@@ -1,20 +1,12 @@
-- title: 🗓️ SirPuffin
-  desc: Easy-to-use, cross-platform calendar app
+- title: Jumpstart
+  description: Various snippets and building blocks for projects
+  source: https://github.com/caganseyrek/Jumpstart
+- title: SirPuffin
+  description: Easy-to-use, cross-platform calendar app
   source: https://github.com/caganseyrek/SirPuffin
-  article: ""
-  docs: ""
-- title: 💽 Personal Website
-  desc: Source of my personal website
-  source: https://github.com/caganseyrek/caganseyrek.github.io
-  article: ""
-  docs: ""
-- title: 📃 TOC Generator
-  desc: Automatic table of contents generator
+- title: TOC Generator
+  description: Automatic table of contents generator
   source: https://github.com/caganseyrek/TOC-Generator
-  article: ""
-  docs: ""
-- title: 🃏 Blackjack
-  desc: Simple, terminal-based blackjack game
+- title: Blackjack
+  description: Simple, terminal-based blackjack game
   source: https://github.com/caganseyrek/Blackjack
-  article: ""
-  docs: ""
