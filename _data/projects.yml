@@ -1,9 +1,9 @@
+- title: WalletTuner
+  description: Flexible personal finance tracking app 
+  source: https://github.com/caganseyrek/WalletTuner
 - title: Jumpstart
   description: Various snippets and building blocks for projects
   source: https://github.com/caganseyrek/Jumpstart
-- title: SirPuffin
-  description: Easy-to-use, cross-platform calendar app
-  source: https://github.com/caganseyrek/SirPuffin
 - title: TOC Generator
   description: Automatic table of contents generator
   source: https://github.com/caganseyrek/TOC-Generator
