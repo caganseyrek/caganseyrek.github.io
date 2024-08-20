@@ -30,9 +30,9 @@ permalink: /
 		I'm a 3rd-year computer engineering student passionate about software development, and open-source way of collaborating and improving tech together for everyone. I enjoy working with various languages and frameworks to create all sorts of projects.
 	</p>
 	<ul id="techlist">
-		<li><b>Frameworks &#x279C;</b> React, Svelte, ASP.NET Core, Express.js, Flask</li>
+		<li><b>Frameworks &#x279C;</b> React, ASP.NET Core, Express.js, Svelte, Flask</li>
 		<li><b>Languages &#x279C;</b> JavaScript, TypeScript, C#, Java, Python, C, C++, CSS, HTML</li>
-		<li><b>Tools &#x279C;</b> VSCode, Linux (WSL), Git, GitHub, <!--Docker, Jest, Cypress,--> Figma</li>
+		<li><b>Tools &#x279C;</b> VSCode, Visual Studio, Linux (WSL), Git, GitHub, Figma</li>
 	</ul>
 </section>
 <hr />
