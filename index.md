@@ -31,8 +31,8 @@ permalink: /
 	</p>
 	<ul id="techlist">
 		<li><b>Frameworks &#x279C;</b> React, ASP.NET Core, Express.js, Svelte, Flask</li>
-		<li><b>Languages &#x279C;</b> JavaScript, TypeScript, C#, Java, Python, C, C++, CSS, HTML</li>
-		<li><b>Tools &#x279C;</b> VSCode, Visual Studio, Linux (WSL), Git, GitHub, Postman, Figma</li>
+		<li><b>Languages &#x279C;</b> JavaScript, TypeScript, C#, Python, Java, C, C++, CSS, HTML</li>
+		<li><b>Tools &#x279C;</b> VSCode, Visual Studio, Git, Postman, Linux (WSL), Figma</li>
 	</ul>
 </section>
 <hr />
