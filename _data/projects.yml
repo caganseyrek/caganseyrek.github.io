@@ -4,9 +4,9 @@
 - title: Jumpstart
   description: Various snippets and building blocks for projects
   source: https://github.com/caganseyrek/Jumpstart
+- title: Requester
+  description: A custom and flexible HTTP requester
+  source: https://github.com/caganseyrek/Requester
 - title: TOC Generator
   description: Automatic table of contents generator
   source: https://github.com/caganseyrek/TOC-Generator
-- title: Blackjack
-  description: Simple, terminal-based blackjack game
-  source: https://github.com/caganseyrek/Blackjack
