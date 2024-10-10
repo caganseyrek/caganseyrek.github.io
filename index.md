@@ -27,7 +27,7 @@ permalink: /
 <section id="about">
 	<h3>About Me</h3>
 	<p>
-		I'm a 3rd-year computer engineering student passionate about software development, and open-source way of collaborating and improving tech together for everyone. I enjoy working with various languages and frameworks to create all sorts of projects.
+		I'm a 4th-year computer engineering student passionate about software development, and open-source way of collaborating and improving tech together for everyone. I enjoy working with various languages and frameworks to create all sorts of projects.
 	</p>
 	<ul id="techlist">
 		<li><b>Frameworks &#x279C;</b> React, ASP.NET Core, Express.js, Svelte, Flask</li>
